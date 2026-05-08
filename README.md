@@ -133,7 +133,7 @@ The `main.js` file handles:
 
 ---
 
-## 📋 Browser Support
+## Browser Support
 
 Tested and working in:
 - ✅ Chrome / Edge (latest)
