@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Arngren.net - Norway's premier destination for DIY enthusiasts. Quality electric vehicles, solar power, RC aircraft, and robotics for makers and innovators.">
+    <title>Arngren.net - Quality Tools for Makers & Innovators</title>
+
+    <!-- Google Fonts: Poppins (headlines), Inter (body), Roboto Mono (specs) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav" aria-label="Main navigation">
+            <a href="index.html" class="nav__logo">ARNGREN.NET</a>
+
+            <button class="nav__menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav__links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="category.html">Categories</a></li>
+                <li><a href="category.html">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav__actions">
+                <div class="nav__search">
+                    <input type="search" placeholder="Search products..." aria-label="Search products">
+                </div>
+                <a href="cart.html" class="nav__cart" aria-label="Shopping cart">
+                    <svg class="nav__cart-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="9" cy="21" r="1"/>
+                        <circle cx="20" cy="21" r="1"/>
+                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+                    </svg>
+                    <span class="nav__cart-count" style="display: none;">0</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero__content">
+                    <span class="hero__eyebrow">Built for Makers</span>
+                    <h1 class="hero__title">
+                        Find Your<br>
+                        <em>Next Project</em>
+                    </h1>
+                    <p class="hero__subtitle">
+                        Quality tools and equipment for engineers, hobbyists, and DIY innovators. Specifications-first product information for serious builders.
+                    </p>
+                    <div class="hero__cta">
+                        <a href="category.html" class="btn btn--primary btn--large">Browse Categories</a>
+                        <a href="#categories" class="btn btn--outline btn--large">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section class="section" id="categories">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__eyebrow">Curated Selection</span>
+                    <h2 class="section__title">Shop by Category</h2>
+                    <p class="section__subtitle">Browse our specialized product collections</p>
+                </div>
+
+                <div class="category-grid">
+                    <a href="category.html" class="category-card">
+                        <div class="category-card__image">
+                            <img src="images/Urban%20E-Bike.jpg" alt="Electric Vehicles">
+                        </div>
+                        <h3 class="category-card__name">Electric Vehicles</h3>
+                        <p class="category-card__count">24 PRODUCTS</p>
+                    </a>
+
+                    <a href="category.html" class="category-card">
+                        <div class="category-card__image">
+                            <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&h=450&fit=crop" alt="Solar Power">
+                        </div>
+                        <h3 class="category-card__name">Solar Power</h3>
+                        <p class="category-card__count">18 PRODUCTS</p>
+                    </a>
+
+                    <a href="category.html" class="category-card">
+                        <div class="category-card__image">
+                            <img src="https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=600&h=450&fit=crop" alt="RC Aircraft">
+                        </div>
+                        <h3 class="category-card__name">RC Aircraft</h3>
+                        <p class="category-card__count">30 PRODUCTS</p>
+                    </a>
+
+                    <a href="category.html" class="category-card">
+                        <div class="category-card__image">
+                            <img src="https://images.unsplash.com/photo-1535378620166-273708d44e4c?w=600&h=450&fit=crop" alt="Robotics">
+                        </div>
+                        <h3 class="category-card__name">Robotics</h3>
+                        <p class="category-card__count">60 PRODUCTS</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Value Propositions -->
+        <section class="value-props">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__eyebrow">Why Arngren</span>
+                    <h2 class="section__title">Built on Trust</h2>
+                </div>
+
+                <div class="value-grid">
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="22 4 12 14.01 9 11.01"/>
+                            </svg>
+                        </div>
+                        <h3>Quality First</h3>
+                        <p>Premium equipment from trusted manufacturers, vetted for serious makers.</p>
+                    </div>
+
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M3 12a9 9 0 1 0 18 0 9 9 0 0 0-18 0"/>
+                                <path d="M3 12c0-3 4-6 9-6s9 3 9 6"/>
+                                <path d="M12 3c2 4 2 14 0 18"/>
+                                <path d="M12 3c-2 4-2 14 0 18"/>
+                            </svg>
+                        </div>
+                        <h3>Sustainable</h3>
+                        <p>Eco-friendly products designed for long-term use, not single-season trends.</p>
+                    </div>
+
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M3 3v18h18"/>
+                                <path d="M7 14l4-4 4 4 5-5"/>
+                            </svg>
+                        </div>
+                        <h3>Technical Specs</h3>
+                        <p>Detailed specifications for every product. Make informed decisions, not impulse buys.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__column">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="category.html">All Products</a></li>
+                        <li><a href="category.html">Categories</a></li>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Best Sellers</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__column">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__column">
+                    <h3>Connect</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <span class="footer__brand">ARNGREN.NET</span>
+                <span>&copy; 2026 Arngren. Designed for makers, by makers.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
