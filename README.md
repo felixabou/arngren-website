@@ -158,5 +158,3 @@ Uses modern CSS (Grid, Flexbox, custom properties) and ES6+ JavaScript.
 **Color Inspiration:** Scandinavian design principles, sustainability research
 
 ---
-
-*"Specifications, not sales pitches. Built for makers, by makers."*
